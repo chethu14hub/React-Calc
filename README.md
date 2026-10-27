@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 🧮 React Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive calculator built using **React.js**. This project helped me practice React functional components, the `useState` hook, event handling, and basic arithmetic operations.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- 🔢 Input numbers using calculator buttons.
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🧹 Clear button to reset the display and stored values.
+- ⚛️ React functional components and state management.
+- 🎨 Custom styling using CSS.
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Git and GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Project Preview
 
-### `npm test`
+Add a screenshot of your calculator here after uploading it to your repository.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![React Calculator Preview](./screenshot.png)
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure you have installed:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd YOUR_PROJECT_FOLDER
+   ```
 
-## Learn More
+3. Install the dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server:
 
-### Code Splitting
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   If your project was created using Vite, use:
 
-### Analyzing the Bundle Size
+   ```bash
+   npm run dev
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open the local URL shown in your terminal to use the calculator.
 
-### Making a Progressive Web App
+## 📚 What I Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Creating reusable React functional components.
+- Managing data with the `useState` hook.
+- Handling button clicks using `onClick`.
+- Using conditional logic and `switch` statements.
+- Converting string inputs into numbers for calculations.
+- Resetting multiple state variables with a clear function.
+- Styling a React application with CSS.
 
-### Advanced Configuration
+## 🔮 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Add percentage calculation.
+- Support decimal numbers.
+- Add keyboard input support.
+- Improve error handling and calculator layout.
+- Deploy the application online.
 
-### Deployment
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Chethan**
 
-### `npm run build` fails to minify
+- GitHub: [Your GitHub Profile](https://github.com/YOUR_GITHUB_USERNAME)
+- LinkedIn: [Your LinkedIn Profile](YOUR_LINKEDIN_PROFILE_URL)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+⭐ If you find this project useful, consider giving the repository a star!
